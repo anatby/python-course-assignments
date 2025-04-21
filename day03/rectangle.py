@@ -6,7 +6,7 @@ def calculate_area_and_perimeter(width, length):
     return area, perimeter
 
 if len(sys.argv) != 3:
-    print("Usage: python script.py <width> <length>")
+    print("Usage: py script.py <width> <length>")
     sys.exit(1)
 
 try:
